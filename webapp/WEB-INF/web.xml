@@ -24,7 +24,7 @@
     <!-- WELCOME -->
 
     <welcome-file-list>
-        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>helloAjax.xhtml</welcome-file>
     </welcome-file-list>
 
 </web-app>

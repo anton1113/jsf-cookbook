@@ -6,7 +6,7 @@
 
     <groupId>jsf-cookbook</groupId>
     <artifactId>jsf-cookbook</artifactId>
-    <version>1.0 - Hello World Example</version>
+    <version>1.0 - Ajax Example</version>
 
     <dependencies>
 
