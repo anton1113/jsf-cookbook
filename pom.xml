@@ -6,7 +6,7 @@
 
     <groupId>jsf-cookbook</groupId>
     <artifactId>jsf-cookbook</artifactId>
-    <version>1.0 - Ajax Example</version>
+    <version>1.4 - Managed Beans Example</version>
 
     <dependencies>
 
@@ -43,6 +43,16 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- JSTL -->
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
 
     </dependencies>
 

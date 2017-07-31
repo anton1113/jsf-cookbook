@@ -24,7 +24,32 @@
     <!-- WELCOME -->
 
     <welcome-file-list>
-        <welcome-file>helloAjax.xhtml</welcome-file>
+        <welcome-file>pages/index.xhtml</welcome-file>
     </welcome-file-list>
+
+    <!-- PARAMS -->
+
+    <context-param>
+        <description>State saving method: ’client’ or ’server’ (=default). See JSF ←-
+            Specification 2.5.2</description>
+        <param-name>javax.faces.STATE_SAVING_METHOD</param-name>
+        <param-value>client</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+        <param-value>resources.application</param-value>
+    </context-param>
+
+    <!-- LISTENER -->
+
+    <listener>
+        <listener-class>com.sun.faces.config.ConfigureListener</listener-class>
+    </listener>
 
 </web-app>
